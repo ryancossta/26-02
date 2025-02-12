@@ -4,7 +4,7 @@ header{
     justify-content: center;
 
     & .name{
-        background: linear-gradient(to right, #ff0000, #fe4800, #ff9d00);
+        background: linear-gradient(to right, #17202a, #fe4800, #273746);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 40px;
@@ -39,7 +39,7 @@ article{
     text-align: center;
     margin-top: 5%;
     border-radius: 20px;
-    background-color: #fe480074;
+    background-color: #00000074;
 }
 
 .text1{
