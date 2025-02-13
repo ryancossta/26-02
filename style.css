@@ -19,13 +19,8 @@ nav{
 nav a{
     text-decoration: none;
     font-size: 5vh;
-    color: rgb(255, 255, 255);
+    color: whitesmoke
 }
-
-nav a:hover{
-    color: rgb(119, 138, 246);
-}
-
 
 article{
     display: flex;
@@ -33,7 +28,7 @@ article{
     text-align: center;
     margin-top: 5%;
     border-radius: 20px;
-    background-color: #00000074;
+    background-color: #fdf7f717;
 }
 
 .text1{
@@ -42,7 +37,7 @@ article{
 }
 
 .text1 p{
-    color: #FFFFF0;
+    color: whitesmoke;
 }
 
 /*Página de fotos*/
@@ -70,12 +65,19 @@ header{
     border-color: rgb(255, 255, 255);
 }
 
+.pag1{ 
+    display: flex;
+    background-color: #17202aa2;
+    color: whitesmoke;
+}
+
 /*FOOTER*/
 footer{
-display: flex;
-justify-content: center;
-margin-top: 9vh;
+    display: flex;
+    justify-content:center;
+    margin-top: 9vh;
 } footer a{
+    font-size: 5vh;
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
