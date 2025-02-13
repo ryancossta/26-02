@@ -3,13 +3,18 @@ header{
     display: flex;
     justify-content: center;
 
-    & .name{
+   /* & .name{
         background: linear-gradient(to right, #17202a, #fe4800, #273746);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 25px;
-    }
+    }*/
 }
+
+header .name{
+    color: red;
+}
+
+
 nav{
     display: flex;
     justify-content: center;
